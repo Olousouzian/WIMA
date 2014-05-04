@@ -1,0 +1,43 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CoreCLR, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CoreCLR.Kernel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    DelUp EUp: SpecialName
+    DelDown EDown: SpecialName
+  Methods:
+    add_EDown(DelDown): PrivateScope, Public, HideBySig, SpecialName
+    remove_EDown(DelDown): PrivateScope, Public, HideBySig, SpecialName
+    keyDown(Int32): PrivateScope, Public, HideBySig
+    add_EUp(DelUp): PrivateScope, Public, HideBySig, SpecialName
+    remove_EUp(DelUp): PrivateScope, Public, HideBySig, SpecialName
+    keyUp(Int32): PrivateScope, Public, HideBySig
+    InstallKernel(): PrivateScope, Public, HideBySig
+    Run(): PrivateScope, Public, HideBySig
+    SendKey(Int32): PrivateScope, Public, HideBySig
+    UninstallKernel(): PrivateScope, Public, HideBySig
+    RouteEnabled(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    RouteEnabled(): PrivateScope, Public, HideBySig
+Class CoreCLR.Kernel+DelDown: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class CoreCLR.Kernel+DelUp: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask

@@ -1,0 +1,36 @@
+﻿Build started 5/1/2014 5:37:22 PM.
+     1>Project "C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\CoreCLR\CoreCLR.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CoreCLR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp CoreCLR.cpp
+         AssemblyInfo.cpp
+         CoreCLR.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Olousouzian\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\Debug\CoreCLR.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\Debug\CoreCLR.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\CoreCLR.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>CoreCLR.obj : error LNK2028: unresolved token (0A00002E) "extern "C" int __cdecl interception_receive(void *,int,char (*)[20],unsigned int)" (?interception_receive@@$$J0YAHPAXHPAY0BE@DI@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::RunCore(void)" (?RunCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2028: unresolved token (0A000030) "extern "C" void __cdecl interception_destroy_context(void *)" (?interception_destroy_context@@$$J0YAXPAX@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::UninstallCore(void)" (?UninstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2028: unresolved token (0A000034) "extern "C" int __cdecl interception_wait(void *)" (?interception_wait@@$$J0YAHPAX@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::RunCore(void)" (?RunCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2028: unresolved token (0A00003D) "extern "C" void * __cdecl interception_create_context(void)" (?interception_create_context@@$$J0YAPAXXZ) referenced in function "public: void __clrcall CoreCLR::Kernel::InstallCore(void)" (?InstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2028: unresolved token (0A000046) "extern "C" void __cdecl interception_set_filter(void *,int (__cdecl*)(int),unsigned short)" (?interception_set_filter@@$$J0YAXPAXP6AHH@ZG@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::InstallCore(void)" (?InstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2019: unresolved external symbol "extern "C" void * __cdecl interception_create_context(void)" (?interception_create_context@@$$J0YAPAXXZ) referenced in function "public: void __clrcall CoreCLR::Kernel::InstallCore(void)" (?InstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2001: unresolved external symbol _interception_is_keyboard
+     1>CoreCLR.obj : error LNK2019: unresolved external symbol "extern "C" void __cdecl interception_set_filter(void *,int (__cdecl*)(int),unsigned short)" (?interception_set_filter@@$$J0YAXPAXP6AHH@ZG@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::InstallCore(void)" (?InstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl interception_wait(void *)" (?interception_wait@@$$J0YAHPAX@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::RunCore(void)" (?RunCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl interception_receive(void *,int,char (*)[20],unsigned int)" (?interception_receive@@$$J0YAHPAXHPAY0BE@DI@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::RunCore(void)" (?RunCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>CoreCLR.obj : error LNK2019: unresolved external symbol "extern "C" void __cdecl interception_destroy_context(void *)" (?interception_destroy_context@@$$J0YAXPAX@Z) referenced in function "public: void __clrcall CoreCLR::Kernel::UninstallCore(void)" (?UninstallCore@Kernel@CoreCLR@@$$FQ$AAMXXZ)
+     1>C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\Debug\CoreCLR.dll : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\CoreCLR\CoreCLR.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.52

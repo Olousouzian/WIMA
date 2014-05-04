@@ -1,0 +1,15 @@
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Debug\WimaProto.exe.config
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Debug\WimaProto.exe
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Debug\WimaProto.pdb
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Debug\CoreCLR.dll
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Debug\CoreCLR.pdb
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.csprojResolveAssemblyReference.cache
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\MainWindow.baml
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\MainWindow.g.cs
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\App.g.cs
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto_MarkupCompile.cache
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.g.resources
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.Properties.Resources.resources
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.csproj.GenerateResource.Cache
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.exe
+C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Debug\WimaProto.pdb
