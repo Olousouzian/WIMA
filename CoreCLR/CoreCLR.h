@@ -85,14 +85,17 @@ namespace CoreCLR
 		// Check if the code equals to a char
 		bool isKeyChar(int code)
 		{
+			// Debug Only
+			//Console::WriteLine(code);
+
 			// Q -----------------> P
-			if (code >= 0x11 && code <= 0x19)
+			if (code >= 16 && code <= 25)
 				return true;
 			// A -----------------> L
-			if (code >= 0x1E && code <= 0x26)
+			if (code >= 30 && code <= 38)
 				return true;
 			// Z ------------------> M
-			if (code >= 0x2C && code <= 0x32)
+			if (code >= 44 && code <= 50)
 				return true;
 
 			return false;

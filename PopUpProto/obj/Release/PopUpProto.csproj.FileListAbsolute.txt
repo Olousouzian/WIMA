@@ -1,0 +1,5 @@
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\PopUpProto\bin\Release\PopUpProto.exe.config
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\PopUpProto\obj\Release\MainWindow.baml
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\PopUpProto\obj\Release\MainWindow.g.cs
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\PopUpProto\obj\Release\App.g.cs
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\PopUpProto\obj\Release\PopUpProto_MarkupCompile.cache

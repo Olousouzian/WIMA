@@ -24,7 +24,7 @@ namespace WimaProto.Core
         #region Ctor
         public CoreTimer()
         {
-            _timer = new Timer(1000);
+            _timer = new Timer(500);
             _timer.Elapsed += TimerOnElapsed;
             KeyStart = -1;
             PopUpIsEnabled = false;

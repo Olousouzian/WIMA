@@ -13,3 +13,13 @@ C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Re
 C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\bin\Release\CoreCLR.pdb
 C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Release\WimaProto.exe
 C:\Users\Olousouzian\documents\visual studio 2013\Projects\Wima\WimaProto\obj\Release\WimaProto.pdb
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\obj\Release\GUI\PopUp.baml
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\obj\Release\GUI\PopUp.g.cs
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\MahApps.Metro.dll
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\MahApps.Metro.xml
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\obj\Release\Resources\Icons.baml
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\obj\Release\Resources\Icons.g.cs
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\WimaProto\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml

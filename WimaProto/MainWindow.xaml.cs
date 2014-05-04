@@ -1,8 +1,6 @@
 ﻿using System.ComponentModel;
-using System.Net.Mime;
-using System.Threading;
-using System.Windows;
 using WimaProto.Core;
+using WimaProto.GUI;
 
 namespace WimaProto
 {
@@ -31,9 +29,8 @@ namespace WimaProto
 
         private void BackgroundWorkerOnProgressChanged(object sender, ProgressChangedEventArgs progressChangedEventArgs)
         {
-            this.WindowState = WindowState.Maximized;
-            _coreEngine.Kernel.RouteEnabled(false);
-            TextBox.Focus();
+            var test = new MessegeBox();
+            var ret = test.Show("SpaceShip !");
         }
 
         private void BackgroundWorkerOnDoWork(object sender, DoWorkEventArgs doWorkEventArgs)
