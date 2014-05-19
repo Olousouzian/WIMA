@@ -4,6 +4,13 @@
 #include "stdafx.h"
 #include <interception.h>
 
+enum ScanCode
+{
+    SCANCODE_X   = 0x2D,
+    SCANCODE_Y   = 0x15,
+    SCANCODE_ESC = 0x01
+};
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {

@@ -1,5 +1,5 @@
-﻿Build started 5/4/2014 6:04:49 PM.
-     1>Project "C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\CoreCLR\CoreCLR.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 5/18/2014 6:27:56 PM.
+     1>Project "C:\Users\Fabien\Documents\Visual Studio 2013\Projects\wima\CoreCLR\CoreCLR.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\CoreCLR.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
          Stdafx.cpp
@@ -7,19 +7,19 @@
          AssemblyInfo.cpp
          CoreCLR.cpp
          Generating Code...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Olousouzian\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Fabien\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
          .NETFramework,Version=v4.5.AssemblyAttributes.cpp
        ResourceCompile:
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\Release\CoreCLR.dll" /INCREMENTAL:NO /NOLOGO interception.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\Release\CoreCLR.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Release\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fabien\Documents\Visual Studio 2013\Projects\wima\Release\CoreCLR.dll" /INCREMENTAL:NO /NOLOGO interception.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Fabien\Documents\Visual Studio 2013\Projects\wima\Release\CoreCLR.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Release\app.res
          Release\AssemblyInfo.obj
          Release\CoreCLR.obj
          Release\Stdafx.obj
          "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-         CoreCLR.vcxproj -> C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\Release\CoreCLR.dll
-     1>Done Building Project "C:\Users\Olousouzian\Documents\Visual Studio 2013\Projects\Wima\CoreCLR\CoreCLR.vcxproj" (Rebuild target(s)).
+         CoreCLR.vcxproj -> C:\Users\Fabien\Documents\Visual Studio 2013\Projects\wima\Release\CoreCLR.dll
+     1>Done Building Project "C:\Users\Fabien\Documents\Visual Studio 2013\Projects\wima\CoreCLR\CoreCLR.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.29
+Time Elapsed 00:00:03.35
