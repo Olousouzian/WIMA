@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel;
-using WimaProto.Core;
-using WimaProto.GUI;
+using WimaGUIProto.Core;
+using WimaGUIProto.GUI;
 
-namespace WimaProto
+namespace WimaGUIProto
 {
     public partial class MainWindow
     {

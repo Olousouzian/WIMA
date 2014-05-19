@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Animation;
 
-namespace WimaProto.GUI
+namespace WimaGUIProto.GUI
 {
     /// <summary>
     /// Interaction logic for MessegeBox.xaml

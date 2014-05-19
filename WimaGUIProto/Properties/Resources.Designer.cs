@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WimaGUIProto.Properties
+namespace WimaWPFProto.Properties
 {
 
 

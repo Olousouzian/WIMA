@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 using MahApps.MessegeBox;
 
 
-namespace WimaGUIProto
+namespace WimaWPFProto
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

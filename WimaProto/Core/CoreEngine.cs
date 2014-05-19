@@ -2,7 +2,7 @@
 using CoreCLR;
 
 
-namespace WimaProto.Core
+namespace WimaGUIProto.Core
 {
     public class CoreEngine
     {

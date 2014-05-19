@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WimaProto.Properties
+namespace WimaGUIProto.Properties
 {
 
 

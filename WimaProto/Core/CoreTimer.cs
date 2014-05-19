@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Timers;
 
-namespace WimaProto.Core
+namespace WimaGUIProto.Core
 {
     public class CoreTimer
     {
