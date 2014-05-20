@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Security.Cryptography;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -30,13 +26,31 @@ namespace WimaDesign.Caroussel
 
         public void Left()
         {
-            Console.WriteLine(_currentlySelected.Name);
-            foreach (FrameworkElement element in Children)
+            var index = _currentlySelected.Index - 1;
+            if (index < 0)
+                index = Children.Count - 1;
+
+            LookingForElement(index);
+        }
+
+        public void Right()
+        {
+            var index = _currentlySelected.Index + 1;
+            if (index >= Children.Count)
+                index = 0;
+
+            LookingForElement(index);
+        }
+
+        private void LookingForElement(int index)
+        {
+            if (_timer.IsEnabled)
+                return;
+            foreach (BallTest element in Children)
             {
-                if (element.Name == "I2")
+                if (element.Index == index)
                 {
                     _previousTime = DateTime.Now;
-
                     RotateToElement(element);
 
                     if (OnElementSelected != null)
@@ -68,7 +82,7 @@ namespace WimaDesign.Caroussel
             }
         }
 
-        private const double DEFAULT_ROTATION_SPEED = 200;
+        private const double DEFAULT_ROTATION_SPEED = 500;
         private const double MINIMUM_ROTATION_SPEED = 1;
         private const double MAXIMUM_ROTATION_SPEED = 1000;
         private double _rotationSpeed = DEFAULT_ROTATION_SPEED;
@@ -102,7 +116,7 @@ namespace WimaDesign.Caroussel
             }
         }
 
-        private const double DEFAULT_FADE = 0.5;
+        private const double DEFAULT_FADE = 0.7;
         private const double MINIMUM_FADE = 0;
         private const double MAXIMUM_FADE = 1;
         private double _fade = DEFAULT_FADE;
@@ -145,10 +159,9 @@ namespace WimaDesign.Caroussel
         {
             if (element != _currentlySelected)
             {
-                _currentlySelected = element;
-                int targetIndex = Children.IndexOf(element);
-
-                double degreesToRotate = GetDegreesNeededToPlaceElementInFront(_currentRotation, targetIndex, TotalNumberOfElements);
+                _currentlySelected = (BallTest)element;
+                var targetIndex = Children.IndexOf(element);
+                var degreesToRotate = GetDegreesNeededToPlaceElementInFront(_currentRotation, targetIndex, TotalNumberOfElements);
                 _targetRotation = ClampDegrees(_currentRotation - degreesToRotate);
 
                 StartRotation(degreesToRotate);
@@ -194,8 +207,8 @@ namespace WimaDesign.Caroussel
         }
 
 
-        private FrameworkElement _currentlySelected = null;
-        public FrameworkElement CurrentlySelected { get { return _currentlySelected; } }
+        private BallTest _currentlySelected = null;
+        public BallTest CurrentlySelected { get { return _currentlySelected; } }
         protected double CenterX { get { return this.Width / 2.0; } }
         protected double CenterY { get { return this.Height / 2.0; } }
 

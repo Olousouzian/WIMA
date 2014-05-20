@@ -65,6 +65,10 @@ namespace WimaDesign.GUI
                     CarouselControl.Left();
                     e.Handled = true;
                     break;
+                case Key.Right:
+                    CarouselControl.Right();
+                    e.Handled = true;
+                    break;
             }
         }
 

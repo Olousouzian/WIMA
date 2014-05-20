@@ -4,11 +4,54 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
-	x:Class="WimaDesign.BallTest"
+	x:Class="WimaDesign.Caroussel.BallTest"
 	x:Name="UserControl"
-	d:DesignWidth="64" d:DesignHeight="48">
+	d:DesignWidth="62" d:DesignHeight="62">
+	<UserControl.Resources>
+		<Storyboard x:Key="FloatingEffect"  RepeatBehavior="Forever">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Form">
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-2"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="-3"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Form">
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-7"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="8"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Char">
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-2"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="-3"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Char">
+				<EasingDoubleKeyFrame KeyTime="0:0:1" Value="-7"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="8"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource FloatingEffect}"/>
+		</EventTrigger>
+	</UserControl.Triggers>
 
-	<Grid x:Name="LayoutRoot">
-		<Ellipse Fill="#FFA61449" HorizontalAlignment="Left" Height="39" Margin="10,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="39"/>
-	</Grid>
+    <Grid x:Name="LayoutRoot">
+        <Ellipse Name="Form"  Fill="#FFA61449" HorizontalAlignment="Left" Height="62" Stroke="Black" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.5,0.5">
+        	<Ellipse.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</Ellipse.RenderTransform>
+        </Ellipse>
+        <TextBlock Name="Char" Text="E" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" RenderTransformOrigin="0.5,0.5">
+        	<TextBlock.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform/>
+        			<SkewTransform/>
+        			<RotateTransform/>
+        			<TranslateTransform/>
+        		</TransformGroup>
+        	</TextBlock.RenderTransform></TextBlock>
+    </Grid>
 </UserControl>
