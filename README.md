@@ -1,4 +1,4 @@
-WIMA Project
+WIMA (Where Is My Accents)
 ====
 
 ## Synopsis
@@ -17,16 +17,7 @@ Some solution already exists but there no free and no friendly to use. With WIMA
 
 Documentation will be write at the end of this project.
 
-## Donation
-
-We are releasing this solution for free, but this doesn't mean it doesn't require time to build it ! 
-If you want, you can support us with a little donation with PayPal.
-
 ## Contributors
-
-Actually 2 peoples work on this project :
- - Olousouzian Fabien
- - Sana Aurélia
 
 Special thanks to :
 
@@ -34,6 +25,6 @@ Special thanks to :
  - Philipp Sumi for this work on Hardcodet WPF NotifyIcon (https://www.nuget.org/packages/Hardcodet.NotifyIcon.Wpf)
  - All the team of MahApps for his incredebly works (https://github.com/MahApps)
 
-## License
+## Why is not finished yet ?
 
-This project will be Open-Source. Any license has been selected for now.
+I don't have any free time for this now. Maybe later, I hope so...
