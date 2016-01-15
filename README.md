@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="http://i.imgur.com/g4LCWWz.png"/>
+</p>
+
 WIMA (Where Is My Accents)
 ====
 
